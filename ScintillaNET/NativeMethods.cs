@@ -105,6 +105,16 @@ namespace ScintillaNET
         public const int SC_AUTOMATICFOLD_CLICK = 0x0002;
         public const int SC_AUTOMATICFOLD_CHANGE = 0x0004;
 
+		// Folding Levels
+		public const uint SC_FOLDLEVELBASE = 0x400;
+		public const uint SC_FOLDLEVELWHITEFLAG = 0x1000;
+		public const uint SC_FOLDLEVELHEADERFLAG = 0x2000;
+		public const uint SC_FOLDLEVELBOXHEADERFLAG = 0x4000;
+		public const uint SC_FOLDLEVELBOXFOOTERFLAG = 0x8000;
+		public const uint SC_FOLDLEVELCONTRACTED = 0x10000;
+		public const uint SC_FOLDLEVELUNINDENT = 0x20000;
+		public const uint SC_FOLDLEVELNUMBERMASK = 0x0FFF;
+
         // Caret sticky behavior
         public const int SC_CARETSTICKY_OFF = 0;
         public const int SC_CARETSTICKY_ON = 1;
