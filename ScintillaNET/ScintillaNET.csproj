@@ -70,6 +70,10 @@
     <Compile Include="IndicatorStyle.cs" />
     <Compile Include="InsertCheckEventArgs.cs" />
     <Compile Include="Lexer.cs" />
+    <Compile Include="Lexers\CustomLexer.cs" />
+    <Compile Include="Lexers\IniLexer.cs" />
+    <Compile Include="Lexers\SQLLexer.cs" />
+    <Compile Include="Lexers\VBLexer.cs" />
     <Compile Include="Line.cs" />
     <Compile Include="LineCollection.cs" />
     <Compile Include="Loader.cs" />
